@@ -1,0 +1,114 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.bg-img {
+
+    background-image: url("cafefront.jpg");
+    min-height: 28rem;
+    min-width: 28rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+}
+
+.background {
+    background-image: url("cafeintro.jpg");
+    min-height: 29rem;
+    min-width: 29rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+}
+
+.text {
+    padding: 10px 30px;
+    position: absolute;
+    bottom: 0rem;
+}
+
+.diningbg {
+    background-image: url("short.jpg");
+    min-width: 28rem;
+    min-height: 28rem;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    margin: 2rem;
+    width: auto;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float:left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+    overflow: hidden;
+    
+}
+
+.topnav a:hover {
+    background-color: skyblue;
+    color: black;
+    text-decoration: none;
+}
+
+#home {
+    font-family: Georgia, serif;
+    font-size: 1rem;
+    padding: 0rem;
+}
+
+#info {
+    font-family: Georgia, serif;
+    font-size: 1.2rem;
+    padding: 0rem;
+}
+
+#dining {
+    font-family: Georgia, serif;
+    font-size: 1.1rem;
+    padding: 0rem;
+}
+
+#events {
+    font-family: Georgia, serif;
+    font-size: 1rem;
+    padding: 0rem;
+}
+
+#feedback {
+    font-family: Georgia, serif;
+    font-size: 1rem;
+    padding: 0rem;
+}
+
+@media(max-width:998rem) {
+    html {
+        font-size: 100%;
+    }
+}
+
+@media(max-width:768rem) {
+    html {
+        font-size: 100%;
+    }
+}
